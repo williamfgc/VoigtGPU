@@ -13,10 +13,12 @@
 namespace voigt
 {
 
-template <class T>
-void SetComplexInputs(const thrust::device_vector<T> &temperature,
+template <class T, class U>
+void SetComplexInputs(const thrust::device_vector<T> &temperatureReference,
+                      const thrust::device_vector<T> &temperatures,
+                      const thrust::device_vector<T> &wavenumberReference,
                       const thrust::device_vector<T> &wavenumbers,
-                      const T wavenumberStart, thrust::device_vector<T> &inputs)
+                      thrust::device_vector<U> &voigtXY)
 {
 }
 
