@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+.project
+.cproject
+language.settings.xml
