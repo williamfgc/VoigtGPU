@@ -31,3 +31,5 @@
 .project
 .cproject
 language.settings.xml
+
+build/**
